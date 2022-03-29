@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    background: linear-gradient(to right, #FD5070,  #F7C2A3);
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login-form-title{
+    line-height: 1.4em;
+    margin-bottom: 2.0em;
+}
+
+.login-form-title h1{
+    color: #222;
+    font-size: 1.9em;
+}
+
+.login-form-title h2{
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.login-form input{
+    font-style: italic;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.login-form input:focus{
+    background-color: white;
+    transition: 120ms border ease;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+.login-form input:nth-child(2){
+    width: 49%;
+    float: left;
+}
+
+.login-form input:nth-child(3){
+    width: 49%;
+    margin-left: 2%;
+}
+
+.login-form button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7em;
+    color: white;
+    background-color: #2E8fff;
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    transition: 180ms background-color ease;
+    background-color: #2E9fff;
+}
+
+.checkbox {
+    text-align: left;
+}
+
+.checkbox label{
+    font-size: 0.8em;
+    color: #555;
+}
+
+.checkbox a{
+    text-decoration: none;
+    color: #2E8fff;
+}
+
+.checkbox a:hover{
+    text-decoration: underline;
+}
+
+.checkbox input{
+    display: inline-block;
+    margin-top: 1.2em;
+    width: auto;
+    
+}
