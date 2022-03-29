@@ -5,32 +5,32 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.login-form{
+.signup-form{
     background-color: white;
     border-radius: 10px;
     padding: 2em;
     width: 25%;
     margin: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
-.login-form-title{
+.signup-form-title{
     line-height: 1.4em;
     margin-bottom: 2.0em;
 }
 
-.login-form-title h1{
+.signup-form-title h1{
     color: #222;
     font-size: 1.9em;
 }
 
-.login-form-title h2{
+.signup-form-title h2{
     font-weight: normal;
     font-size: 0.9em;
 }
 
-.login-form input{
+.signup-form input{
     font-style: italic;
     box-sizing: border-box;
     background-color: rgb(244, 244, 244);
@@ -41,7 +41,7 @@ body{
     border: 1px solid transparent;
 }
 
-.login-form input:focus{
+.signup-form input:focus{
     background-color: white;
     transition: 120ms border ease;
     border: 1px solid #ccc;
@@ -49,17 +49,17 @@ body{
 }
 
 
-.login-form input:nth-child(2){
+.signup-form input:nth-child(2){
     width: 49%;
     float: left;
 }
 
-.login-form input:nth-child(3){
+.signup-form input:nth-child(3){
     width: 49%;
     margin-left: 2%;
 }
 
-.login-form button{
+.signup-form button{
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -69,7 +69,7 @@ body{
     cursor: pointer;
 }
 
-.login-form button:hover{
+.signup-form button:hover{
     transition: 180ms background-color ease;
     background-color: #2E9fff;
 }
